@@ -1,13 +1,14 @@
 import { useState } from 'react'
+import './App.css'
 import CssBaseline from '@mui/material/CssBaseline';
 import TodoList from './TodoList';
-import './App.css'
+import Navbar from './Navbar';
 
 function App() {
   return (
     <>
       <CssBaseline />
-      <h1>Todos</h1>
+      <Navbar />
       <TodoList />
     </>
   )
