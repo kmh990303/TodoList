@@ -1,5 +1,5 @@
 import List from '@mui/material/List';
-import Todo from './Todo';
+import Todo from './TodoItem';
 import TodoForm from './TodoForm';
 import { Box, Typography } from '@mui/material';
 import { useState, useEffect } from "react";
